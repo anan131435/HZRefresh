@@ -13,6 +13,14 @@
 		732C908C1F7C9E8C00F22AB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 732C908B1F7C9E8C00F22AB1 /* Assets.xcassets */; };
 		732C908F1F7C9E8C00F22AB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 732C908D1F7C9E8C00F22AB1 /* LaunchScreen.storyboard */; };
 		732C90921F7C9E8C00F22AB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 732C90911F7C9E8C00F22AB1 /* main.m */; };
+		732C909C1F7C9FAC00F22AB1 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 732C909B1F7C9FAC00F22AB1 /* UIView+Extension.m */; };
+		732C909F1F7CA27100F22AB1 /* UIScrollView+HZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 732C909E1F7CA27100F22AB1 /* UIScrollView+HZExtension.m */; };
+		732C90A21F7CC44A00F22AB1 /* HZRefreshBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 732C90A11F7CC44A00F22AB1 /* HZRefreshBaseView.m */; };
+		732C90A51F7CC8C300F22AB1 /* HZRefreshBaseHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 732C90A41F7CC8C300F22AB1 /* HZRefreshBaseHeader.m */; };
+		732C90A81F7CCE2500F22AB1 /* UIScrollView+HZRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 732C90A71F7CCE2500F22AB1 /* UIScrollView+HZRefreshHeader.m */; };
+		732C90AB1F7CCEDC00F22AB1 /* UILabel+HZRefreshLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 732C90AA1F7CCEDC00F22AB1 /* UILabel+HZRefreshLabel.m */; };
+		732C90AE1F7CCF5300F22AB1 /* HZRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 732C90AD1F7CCF5300F22AB1 /* HZRefreshStateHeader.m */; };
+		732C90B11F7CD7B900F22AB1 /* HZRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 732C90B01F7CD7B900F22AB1 /* HZRefreshNormalHeader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,22 @@
 		732C908E1F7C9E8C00F22AB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		732C90901F7C9E8C00F22AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		732C90911F7C9E8C00F22AB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		732C909A1F7C9FAC00F22AB1 /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		732C909B1F7C9FAC00F22AB1 /* UIView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		732C909D1F7CA27100F22AB1 /* UIScrollView+HZExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+HZExtension.h"; sourceTree = "<group>"; };
+		732C909E1F7CA27100F22AB1 /* UIScrollView+HZExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+HZExtension.m"; sourceTree = "<group>"; };
+		732C90A01F7CC44A00F22AB1 /* HZRefreshBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZRefreshBaseView.h; sourceTree = "<group>"; };
+		732C90A11F7CC44A00F22AB1 /* HZRefreshBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZRefreshBaseView.m; sourceTree = "<group>"; };
+		732C90A31F7CC8C300F22AB1 /* HZRefreshBaseHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZRefreshBaseHeader.h; sourceTree = "<group>"; };
+		732C90A41F7CC8C300F22AB1 /* HZRefreshBaseHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZRefreshBaseHeader.m; sourceTree = "<group>"; };
+		732C90A61F7CCE2500F22AB1 /* UIScrollView+HZRefreshHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+HZRefreshHeader.h"; sourceTree = "<group>"; };
+		732C90A71F7CCE2500F22AB1 /* UIScrollView+HZRefreshHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+HZRefreshHeader.m"; sourceTree = "<group>"; };
+		732C90A91F7CCEDC00F22AB1 /* UILabel+HZRefreshLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+HZRefreshLabel.h"; sourceTree = "<group>"; };
+		732C90AA1F7CCEDC00F22AB1 /* UILabel+HZRefreshLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+HZRefreshLabel.m"; sourceTree = "<group>"; };
+		732C90AC1F7CCF5300F22AB1 /* HZRefreshStateHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZRefreshStateHeader.h; sourceTree = "<group>"; };
+		732C90AD1F7CCF5300F22AB1 /* HZRefreshStateHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZRefreshStateHeader.m; sourceTree = "<group>"; };
+		732C90AF1F7CD7B900F22AB1 /* HZRefreshNormalHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZRefreshNormalHeader.h; sourceTree = "<group>"; };
+		732C90B01F7CD7B900F22AB1 /* HZRefreshNormalHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZRefreshNormalHeader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,8 @@
 		732C90811F7C9E8C00F22AB1 /* HZRefresh */ = {
 			isa = PBXGroup;
 			children = (
+				732C90991F7C9F8A00F22AB1 /* Category */,
+				732C90981F7C9F7E00F22AB1 /* View */,
 				732C90821F7C9E8C00F22AB1 /* AppDelegate.h */,
 				732C90831F7C9E8C00F22AB1 /* AppDelegate.m */,
 				732C90851F7C9E8C00F22AB1 /* ViewController.h */,
@@ -69,6 +95,36 @@
 				732C90911F7C9E8C00F22AB1 /* main.m */,
 			);
 			path = HZRefresh;
+			sourceTree = "<group>";
+		};
+		732C90981F7C9F7E00F22AB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				732C90A01F7CC44A00F22AB1 /* HZRefreshBaseView.h */,
+				732C90A11F7CC44A00F22AB1 /* HZRefreshBaseView.m */,
+				732C90A31F7CC8C300F22AB1 /* HZRefreshBaseHeader.h */,
+				732C90A41F7CC8C300F22AB1 /* HZRefreshBaseHeader.m */,
+				732C90AC1F7CCF5300F22AB1 /* HZRefreshStateHeader.h */,
+				732C90AD1F7CCF5300F22AB1 /* HZRefreshStateHeader.m */,
+				732C90AF1F7CD7B900F22AB1 /* HZRefreshNormalHeader.h */,
+				732C90B01F7CD7B900F22AB1 /* HZRefreshNormalHeader.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		732C90991F7C9F8A00F22AB1 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				732C909A1F7C9FAC00F22AB1 /* UIView+Extension.h */,
+				732C909B1F7C9FAC00F22AB1 /* UIView+Extension.m */,
+				732C909D1F7CA27100F22AB1 /* UIScrollView+HZExtension.h */,
+				732C909E1F7CA27100F22AB1 /* UIScrollView+HZExtension.m */,
+				732C90A61F7CCE2500F22AB1 /* UIScrollView+HZRefreshHeader.h */,
+				732C90A71F7CCE2500F22AB1 /* UIScrollView+HZRefreshHeader.m */,
+				732C90A91F7CCEDC00F22AB1 /* UILabel+HZRefreshLabel.h */,
+				732C90AA1F7CCEDC00F22AB1 /* UILabel+HZRefreshLabel.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +153,7 @@
 		732C90771F7C9E8C00F22AB1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HZ;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "韩志峰";
 				TargetAttributes = {
@@ -143,8 +200,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				732C90871F7C9E8C00F22AB1 /* ViewController.m in Sources */,
+				732C90B11F7CD7B900F22AB1 /* HZRefreshNormalHeader.m in Sources */,
+				732C90A51F7CC8C300F22AB1 /* HZRefreshBaseHeader.m in Sources */,
+				732C90AE1F7CCF5300F22AB1 /* HZRefreshStateHeader.m in Sources */,
+				732C909F1F7CA27100F22AB1 /* UIScrollView+HZExtension.m in Sources */,
 				732C90921F7C9E8C00F22AB1 /* main.m in Sources */,
+				732C909C1F7C9FAC00F22AB1 /* UIView+Extension.m in Sources */,
+				732C90AB1F7CCEDC00F22AB1 /* UILabel+HZRefreshLabel.m in Sources */,
 				732C90841F7C9E8C00F22AB1 /* AppDelegate.m in Sources */,
+				732C90A81F7CCE2500F22AB1 /* UIScrollView+HZRefreshHeader.m in Sources */,
+				732C90A21F7CC44A00F22AB1 /* HZRefreshBaseView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
