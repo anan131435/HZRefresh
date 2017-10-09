@@ -50,6 +50,7 @@
 		732C90AD1F7CCF5300F22AB1 /* HZRefreshStateHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZRefreshStateHeader.m; sourceTree = "<group>"; };
 		732C90AF1F7CD7B900F22AB1 /* HZRefreshNormalHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZRefreshNormalHeader.h; sourceTree = "<group>"; };
 		732C90B01F7CD7B900F22AB1 /* HZRefreshNormalHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZRefreshNormalHeader.m; sourceTree = "<group>"; };
+		732C90B21F7E4A3D00F22AB1 /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +83,7 @@
 		732C90811F7C9E8C00F22AB1 /* HZRefresh */ = {
 			isa = PBXGroup;
 			children = (
+				732C90B21F7E4A3D00F22AB1 /* arrow@2x.png */,
 				732C90991F7C9F8A00F22AB1 /* Category */,
 				732C90981F7C9F7E00F22AB1 /* View */,
 				732C90821F7C9E8C00F22AB1 /* AppDelegate.h */,
@@ -346,6 +348,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MF9E79MNS4;
 				INFOPLIST_FILE = HZRefresh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HZ.HZRefresh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -360,6 +363,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MF9E79MNS4;
 				INFOPLIST_FILE = HZRefresh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = HZ.HZRefresh;
 				PRODUCT_NAME = "$(TARGET_NAME)";

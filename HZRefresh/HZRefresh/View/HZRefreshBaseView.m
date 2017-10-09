@@ -20,7 +20,10 @@
     }
     return self;
 }
-- (void)prepare{};
+- (void)prepare{
+    self.backgroundColor = [UIColor redColor];
+    self.autoresizingMask = UIViewAutoresizingFlexibleWidth;
+};
 - (void)layoutSubviews{
     [super layoutSubviews];
     [self placeSubViews];

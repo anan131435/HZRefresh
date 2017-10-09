@@ -39,6 +39,7 @@
         self.scrollView.hz_insetT = finalInsetTop;
     }
     if (self.scrollView.dragging) {//正在拖拉
+        self.alpha = pullingPercent;
         if (self.state == HZRefreshStateNormal && -offsetY > boundryOffsetY) {
             self.state = HZRefreshStatePulling;
         }else if (self.state == HZRefreshStatePulling && -offsetY < boundryOffsetY){
