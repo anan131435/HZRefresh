@@ -14,7 +14,7 @@
 
 - (void)prepare{
     [super prepare];
-    self.backgroundColor = [UIColor blueColor];
+//    self.backgroundColor = [UIColor blueColor];
     [self addSubview:self.arrowView];
     [self addSubview:self.indicatorView];
 }
@@ -30,14 +30,18 @@
     [super setState:state];
     if (state == HZRefreshStateNormal) {
         [UIView animateWithDuration:0.4f animations:^{
-            self.indicatorView.alpha = 1.f;
+            self.indicatorView.alpha = 0.f;
+            /*
+             CGAffineTransform 用于设定UIView的transform 属性，控制视图的缩放 旋转和平移
+             */
+            _arrowView.transform = CGAffineTransformIdentity; //操作结束后对设置量进行还原
         } completion:^(BOOL finished) {
             self.indicatorView.alpha = 0.f;
             self.arrowView.alpha = 1.f;
         }];
     }else if (state == HZRefreshStatePulling){
         [UIView animateWithDuration:0.4f animations:^{
-            self.arrowView.transform = CGAffineTransformMakeRotation(-M_PI);
+            self.arrowView.transform = CGAffineTransformMakeRotation(0.0001 - M_PI);
         }];
         
     }else if (state == HZRefreshStateRefrshing){

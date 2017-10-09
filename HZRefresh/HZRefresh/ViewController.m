@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "UIScrollView+HZRefreshHeader.h"
 #import "HZRefreshNormalHeader.h"
+#import "HZPerson.h"
+
 #define KscreenWidth [UIScreen mainScreen].bounds.size.width
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView  *tabelView;
